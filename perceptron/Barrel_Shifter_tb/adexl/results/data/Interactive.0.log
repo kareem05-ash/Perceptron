@@ -1,0 +1,22 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Apr  8 16:44:36 2026 
+Best design point: 1
+Design specs: 
+	perceptron:Barrel_Shifter_tb:1	corner	Nominal - 
+Design parameters: 
+	A0		1
+	A1		0
+	A2		1
+	A3		0
+	L		120n
+	S0		0
+	S1		0
+	VDD		1
+	Wn		120n
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Wed Apr  8 16:44:38 2026 

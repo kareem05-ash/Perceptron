@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<setupdb version="5">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>perceptron:2:1_MUX_tb:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>2:1_MUX_tb</value>
+					</option>
+					<option>lib
+						<value>perceptron</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>perceptron:2:1_MUX_tb:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>2:1_MUX_tb</value>
+					</option>
+					<option>lib
+						<value>perceptron</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<vars>
+			<var>L
+				<value>120n</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:2:1_MUX_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Tclk
+				<value>100n</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:2:1_MUX_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VDD
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:2:1_MUX_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wn
+				<value>120n</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:2:1_MUX_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value>                            </value>
+			</plottingoption>
+		</plottingoptions>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.0
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>perceptron:2:1_MUX_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>2:1_MUX_tb</value>
+							</option>
+							<option>lib
+								<value>perceptron</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>perceptron:2:1_MUX_tb:1_none_Interactive.0</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>2:1_MUX_tb</value>
+							</option>
+							<option>lib
+								<value>perceptron</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>L
+						<value>120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:2:1_MUX_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tclk
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:2:1_MUX_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:2:1_MUX_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:2:1_MUX_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Apr  9 09:27:09 2026
+</timestamp>
+			<resultsname>/home/cadence/pdk/perceptron/2#3a1_MUX_tb/adexl/results/data/Interactive.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_092709218</localpsfdir>
+			<psfdir>/home/cadence/simulation/perceptron/2:1_MUX_tb/adexl/results/data/Interactive.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/perceptron/2:1_MUX_tb/adexl/results/data/Interactive.0</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/pdk/perceptron/2#3a1_MUX_tb/adexl/results/data/Interactive.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.0.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

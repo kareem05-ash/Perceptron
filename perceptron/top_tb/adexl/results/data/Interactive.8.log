@@ -1,0 +1,28 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Apr  9 16:09:22 2026 
+Best design point: 1
+Design specs: 
+	perceptron:top_tb:1	corner	Nominal - 
+Design parameters: 
+	L		120n
+	VDD		1
+	Wn		120n
+	W00		0
+	W01		1
+	W10		1
+	W11		1
+	X00		0
+	X01		1
+	X02		1
+	X03		1
+	X10		1
+	X11		0
+	X12		0
+	X13		0
+
+Interactive.8
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.8 completed. 
+Current time: Thu Apr  9 16:09:27 2026 

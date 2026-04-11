@@ -1,0 +1,1309 @@
+<?xml version="1.0"?>
+<setupdb version="5">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>perceptron:4-bit_Bin_ADD_tb:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>4-bit_Bin_ADD_tb</value>
+					</option>
+					<option>lib
+						<value>perceptron</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>perceptron:4-bit_Bin_ADD_tb:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>4-bit_Bin_ADD_tb</value>
+					</option>
+					<option>lib
+						<value>perceptron</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<vars>
+			<var>A0
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>A1
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>A2
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>A3
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>B0
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>B1
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>B2
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>B3
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>CIn
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>L
+				<value>120n</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VDD
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wn
+				<value>120n</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Tclk
+				<value>100n</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Tclka
+				<value>80n</value>
+				<dependentTests>
+					<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value></value>
+			</plottingoption>
+		</plottingoptions>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.0
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>perceptron:4-bit_Bin_ADD_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>4-bit_Bin_ADD_tb</value>
+							</option>
+							<option>lib
+								<value>perceptron</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>perceptron:4-bit_Bin_ADD_tb:1_none_Interactive.0</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>4-bit_Bin_ADD_tb</value>
+							</option>
+							<option>lib
+								<value>perceptron</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>A0
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A2
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B0
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B1
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B2
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CIn
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Apr 9 08:13:45 2026</timestamp>
+			<resultsname>/home/cadence/pdk/perceptron/4#2dbit_Bin_ADD_tb/adexl/results/data/Interactive.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_081345686</localpsfdir>
+			<psfdir>/home/cadence/simulation/perceptron/4-bit_Bin_ADD_tb/adexl/results/data/Interactive.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/perceptron/4-bit_Bin_ADD_tb/adexl/results/data/Interactive.0</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/pdk/perceptron/4#2dbit_Bin_ADD_tb/adexl/results/data/Interactive.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.0.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.1
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>perceptron:4-bit_Bin_ADD_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>4-bit_Bin_ADD_tb</value>
+							</option>
+							<option>lib
+								<value>perceptron</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>perceptron:4-bit_Bin_ADD_tb:1_none_Interactive.1</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>4-bit_Bin_ADD_tb</value>
+							</option>
+							<option>lib
+								<value>perceptron</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>A0
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A2
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B0
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B1
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B2
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CIn
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Apr 9 08:23:41 2026</timestamp>
+			<resultsname>/home/cadence/pdk/perceptron/4#2dbit_Bin_ADD_tb/adexl/results/data/Interactive.1.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.1.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_082341826</localpsfdir>
+			<psfdir>/home/cadence/simulation/perceptron/4-bit_Bin_ADD_tb/adexl/results/data/Interactive.1</psfdir>
+			<simdir>$AXL_PROJECT_DIR/perceptron/4-bit_Bin_ADD_tb/adexl/results/data/Interactive.1</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/pdk/perceptron/4#2dbit_Bin_ADD_tb/adexl/results/data/Interactive.1.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.1.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.2
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>perceptron:4-bit_Bin_ADD_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>4-bit_Bin_ADD_tb</value>
+							</option>
+							<option>lib
+								<value>perceptron</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>perceptron:4-bit_Bin_ADD_tb:1_none_Interactive.2</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>4-bit_Bin_ADD_tb</value>
+							</option>
+							<option>lib
+								<value>perceptron</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>A0
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A2
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B0
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B1
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B2
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CIn
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tclk
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tclka
+						<value>80n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Apr 9 08:35:18 2026</timestamp>
+			<resultsname>/home/cadence/pdk/perceptron/4#2dbit_Bin_ADD_tb/adexl/results/data/Interactive.2.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.2.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_083518881</localpsfdir>
+			<psfdir>/home/cadence/simulation/perceptron/4-bit_Bin_ADD_tb/adexl/results/data/Interactive.2</psfdir>
+			<simdir>$AXL_PROJECT_DIR/perceptron/4-bit_Bin_ADD_tb/adexl/results/data/Interactive.2</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/pdk/perceptron/4#2dbit_Bin_ADD_tb/adexl/results/data/Interactive.2.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.2.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.3
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>perceptron:4-bit_Bin_ADD_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>4-bit_Bin_ADD_tb</value>
+							</option>
+							<option>lib
+								<value>perceptron</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>perceptron:4-bit_Bin_ADD_tb:1_none_Interactive.3</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>4-bit_Bin_ADD_tb</value>
+							</option>
+							<option>lib
+								<value>perceptron</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>A0
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A2
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B0
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B1
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B2
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CIn
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tclk
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tclka
+						<value>80n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Apr 9 08:41:38 2026</timestamp>
+			<resultsname>/home/cadence/pdk/perceptron/4#2dbit_Bin_ADD_tb/adexl/results/data/Interactive.3.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.3.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_084138425</localpsfdir>
+			<psfdir>/home/cadence/simulation/perceptron/4-bit_Bin_ADD_tb/adexl/results/data/Interactive.3</psfdir>
+			<simdir>$AXL_PROJECT_DIR/perceptron/4-bit_Bin_ADD_tb/adexl/results/data/Interactive.3</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/pdk/perceptron/4#2dbit_Bin_ADD_tb/adexl/results/data/Interactive.3.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.3.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.4
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>perceptron:4-bit_Bin_ADD_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>4-bit_Bin_ADD_tb</value>
+							</option>
+							<option>lib
+								<value>perceptron</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>perceptron:4-bit_Bin_ADD_tb:1_none_Interactive.4</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>4-bit_Bin_ADD_tb</value>
+							</option>
+							<option>lib
+								<value>perceptron</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>A0
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A2
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B0
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B1
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B2
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CIn
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tclk
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tclka
+						<value>80n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Apr 9 08:59:40 2026</timestamp>
+			<resultsname>/home/cadence/pdk/perceptron/4#2dbit_Bin_ADD_tb/adexl/results/data/Interactive.4.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.4.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_085940664</localpsfdir>
+			<psfdir>/home/cadence/simulation/perceptron/4-bit_Bin_ADD_tb/adexl/results/data/Interactive.4</psfdir>
+			<simdir>$AXL_PROJECT_DIR/perceptron/4-bit_Bin_ADD_tb/adexl/results/data/Interactive.4</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/pdk/perceptron/4#2dbit_Bin_ADD_tb/adexl/results/data/Interactive.4.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.4.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.5
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>perceptron:4-bit_Bin_ADD_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>4-bit_Bin_ADD_tb</value>
+							</option>
+							<option>lib
+								<value>perceptron</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>perceptron:4-bit_Bin_ADD_tb:1_none_Interactive.5</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>4-bit_Bin_ADD_tb</value>
+							</option>
+							<option>lib
+								<value>perceptron</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>A0
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A2
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B0
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B1
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B2
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CIn
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tclk
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tclka
+						<value>80n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Apr 9 16:11:05 2026</timestamp>
+			<resultsname>/home/cadence/pdk/perceptron/4#2dbit_Bin_ADD_tb/adexl/results/data/Interactive.5.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.5.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_161105306</localpsfdir>
+			<psfdir>/home/cadence/simulation/perceptron/4-bit_Bin_ADD_tb/adexl/results/data/Interactive.5</psfdir>
+			<simdir>$AXL_PROJECT_DIR/perceptron/4-bit_Bin_ADD_tb/adexl/results/data/Interactive.5</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/pdk/perceptron/4#2dbit_Bin_ADD_tb/adexl/results/data/Interactive.5.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.5.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.6
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>perceptron:4-bit_Bin_ADD_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>4-bit_Bin_ADD_tb</value>
+							</option>
+							<option>lib
+								<value>perceptron</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>perceptron:4-bit_Bin_ADD_tb:1_none_Interactive.6</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>4-bit_Bin_ADD_tb</value>
+							</option>
+							<option>lib
+								<value>perceptron</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>A0
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A2
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>A3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B0
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B1
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B2
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>B3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CIn
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tclk
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Tclka
+						<value>80n</value>
+						<dependentTests>
+							<dependentTest omitted="0">perceptron:4-bit_Bin_ADD_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Apr  9 16:31:56 2026
+</timestamp>
+			<resultsname>/home/cadence/pdk/perceptron/4#2dbit_Bin_ADD_tb/adexl/results/data/Interactive.6.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.6.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_163157006</localpsfdir>
+			<psfdir>/home/cadence/simulation/perceptron/4-bit_Bin_ADD_tb/adexl/results/data/Interactive.6</psfdir>
+			<simdir>$AXL_PROJECT_DIR/perceptron/4-bit_Bin_ADD_tb/adexl/results/data/Interactive.6</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/pdk/perceptron/4#2dbit_Bin_ADD_tb/adexl/results/data/Interactive.6.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.6.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

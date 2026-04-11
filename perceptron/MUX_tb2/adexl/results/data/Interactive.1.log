@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Apr  8 11:58:48 2026 
+Best design point: 1
+Design specs: 
+	perceptron:MUX_tb2:1	corner	Nominal - 
+Design parameters: 
+	L		120n
+	Tclk		120n
+	VDD		1
+	Wn		120n
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Wed Apr  8 11:58:51 2026 
